@@ -1,5 +1,9 @@
 isFizz = function (n) {
-  return false;
+  if(n % 3 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function fizzbuzz () {
