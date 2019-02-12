@@ -19,3 +19,9 @@ describe('isFizz function', function() {
           expect(isBuzz(11)).to.equal(false);
       });
   });
+
+  describe('isFizzBuzz function', function() {
+    it('returns true given 15', function() {
+      expect(isFizzBuzz(15)).to.equal(true);
+    });
+  });
