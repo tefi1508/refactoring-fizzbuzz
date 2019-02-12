@@ -7,3 +7,9 @@ describe('isFizz function', function() {
       expect(isFizz(3)).to.equal(true);
     });
   });
+
+describe('isBuzz function', function() {
+    it('returns true given 20', function() {
+      expect(isBuzz(20)).to.equal(true);
+    });
+});

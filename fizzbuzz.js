@@ -6,6 +6,10 @@ isFizz = function (n) {
   }
 }
 
+isBuzz = function (n) {
+  return false;
+}
+
 function fizzbuzz () {
   for(i = 0; i < 100; i++) 
   {
