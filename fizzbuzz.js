@@ -22,25 +22,21 @@ isFizzBuzz = function (n) {
   }
 }
 
-function fizzbuzz () {
-  for(i = 0; i < 100; i++) 
+fizzbuzz = function () {
+  for(i = 1; i <= 100; i++) 
   {
-      if (i % 3 === 0 && i % 5 === 0)
-      {
-        console.log("FizzBuzz");                    
-      }
-      else 
-        if(i % 3 === 0)
-        {
-          console.log("Fizz");
+      text = i;
+      if(isFizzBuzz(i)) {
+        text = "FizzBuzz"
+      } else {
+        if(isFizz(i)) {
+          text = "Fizz";
         }
-        else 
-          if(i % 5 === 0)
-          {
-            console.log("Buzz");
-          }
-          else
-            console.log(i);
+        if(isBuzz(i)) {
+          text = "Buzz"
+        }
+      }
+      console.log(text);
   }
 }
 
