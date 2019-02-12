@@ -24,4 +24,7 @@ describe('isFizz function', function() {
     it('returns true given 15', function() {
       expect(isFizzBuzz(15)).to.equal(true);
     });
+    it ('returns false given 99', function(){
+        expect(isFizzBuzz(99)).to.equal(false);
+    });
   });
