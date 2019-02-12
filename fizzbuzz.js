@@ -7,7 +7,11 @@ isFizz = function (n) {
 }
 
 isBuzz = function (n) {
-  return false;
+  if(n % 5 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function fizzbuzz () {
