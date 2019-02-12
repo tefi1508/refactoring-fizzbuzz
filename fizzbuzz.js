@@ -1,3 +1,7 @@
+isFizz = function (n) {
+  return false;
+}
+
 function fizzbuzz () {
   for(i = 0; i < 100; i++) 
   {
