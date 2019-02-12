@@ -14,6 +14,14 @@ isBuzz = function (n) {
   }
 }
 
+isFizzBuzz = function (n) {
+  if(n % 3 === 0 && n % 5 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 function fizzbuzz () {
   for(i = 0; i < 100; i++) 
   {
